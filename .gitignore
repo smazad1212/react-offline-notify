@@ -1,0 +1,18 @@
+# dependencies
+node_modules
+
+# testing
+coverage
+
+# misc
+.DS_Store
+.env
+npm-debug.log
+yarn.lock
+
+#webstorm
+.idea/
+
+#vscode
+.vscode/
+.vscode/*

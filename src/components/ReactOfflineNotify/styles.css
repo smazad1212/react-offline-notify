@@ -1,0 +1,53 @@
+.offline-toast-container {
+  position: fixed;
+  background-color: #263238;
+  color: #ffffff;
+  bottom: 0;
+  right: 40px;
+  font-size: 14px;
+  padding: 10px 18px;
+  border-radius: 4px 4px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.offline-toast-container.offline.offline-toast-up {
+  animation: popup .15s ease-in-out;
+}
+.offline-toast-container.offline:before,
+.offline-toast-container.online:before {
+  content: '';
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.offline-toast-container.offline:before {
+  background-color: #F44336;
+}
+.offline-toast-container.online:before {
+  background-color: #4CAF50;
+}
+
+.offline-toast-container.online.offline-toast-down {
+  animation: popdown .15s ease-in-out;
+}
+
+@keyframes popup {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes popdown {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}

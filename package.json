@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "@neutrinojs/react-components": "^8.3.0",
+    "neutrino": "^8.3.0"
+  },
+  "dependencies": {
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "scripts": {
+    "start": "neutrino start --use @neutrinojs/react-components",
+    "build": "neutrino build --use @neutrinojs/react-components"
+  }
+}
