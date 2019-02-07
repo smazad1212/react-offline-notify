@@ -1,3 +1,4 @@
-require('./ReactOfflineNotify');
-require('./ReactOfflineNotify.css');
-module.exports();
+module.exports = () => {
+  require('./ReactOfflineNotify');
+  require('./ReactOfflineNotify.css');
+};
