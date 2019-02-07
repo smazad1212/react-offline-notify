@@ -4,7 +4,7 @@ A toast notifier to indicate if there's no internet connectivity.
 
 ### Usage
 
-> import ReactOfflineNotify from 'react-offline-notify'
+> import ConnectionToast from 'react-offline-notify'
 
 ### Props
 
