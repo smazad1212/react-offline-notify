@@ -1,4 +1,28 @@
 {
+  "name": "react-offline-notify",
+  "version": "1.0.0",
+  "main": "build/ReactOfflineNotify.js",
+  "author": "S M Azad Rahman <smazad1212@gmail.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smazad1212/react-offline-notify.git"
+  },
+  "keywords": [
+    "react-offline",
+    "react",
+    "offline",
+    "toast",
+    "offline-toast",
+    "offline-notification",
+    "react-offline-notification",
+    "react-offline-notify",
+    "react-offline-toast"
+  ],
+  "bugs": {
+    "url": "https://github.com/smazad1212/react-offline-notify/issues"
+  },
+  "homepage": "https://github.com/smazad1212/react-offline-notify#readme",
   "devDependencies": {
     "@neutrinojs/react-components": "^8.3.0",
     "neutrino": "^8.3.0"
