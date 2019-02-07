@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 
-import "../../styles.css"
+import styles from "./index.css"
 
 export default class Index extends Component {
   state = {
