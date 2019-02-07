@@ -1,6 +1,6 @@
 {
   "name": "react-offline-notify",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "build/index.js",
   "author": "S M Azad Rahman <smazad1212@gmail.com>",
   "license": "ISC",
